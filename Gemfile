@@ -17,6 +17,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.4.1'
 gem 'bootsnap'
 gem 'jquery-rails'
+gem 'figaro'
+gem 'faraday'
 
 
 group :development, :test do
@@ -27,7 +29,7 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
-  gem 'faker'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   gem 'simplecov'
 end
 
